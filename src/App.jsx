@@ -2,6 +2,7 @@ import { useState } from 'react'
 import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.css'
+import Header from './components/header'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -9,12 +10,7 @@ function App() {
   return (
     <>
       <div className="body">
-        <header className="header">
-          <div className="icone">
-            <img src="https://img.icons8.com/?size=160&id=9YgKo9PXNHu4&format=png" />
-          </div>
-          <p className="textotop"><b><i>LKCAM</i></b></p>
-        </header>
+       <Header></Header>
         <div className="foto-capa"></div>
 
         <div className="container">

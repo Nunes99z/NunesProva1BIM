@@ -12,16 +12,6 @@ body {
   font-family: 'Inter', sans-serif;
 }
 
-.header {
-  background-color: #FF6200;
-  text-align: center;
-  padding: 10px 0;
-  color: white;
-  font-size: 24px;
-  font-weight: bold;
-  width: 100%;
-}
-
 .container {
   width: 100%;
   max-width: 1200px;
@@ -82,43 +72,9 @@ body {
   margin-bottom: 20px;
 }
 
-.icone img {
-  width: 55px;
-  height: 48px;
-  position: absolute;
-  top: 0px;
-  left: 40px;
-}
-
-.icone1 img {
-  width: 113px;
-  height: 90px;
-  position: absolute;
-  top: 3450px;
-  left: 10px;
-}
-
-.textotop {
-  font-family: Inter;
-  font-size: 36px;
-  position: relative;
-  left: 110px;
-  bottom: 2px;
-  letter-spacing: 1px;
-}
-
 @media (min-width: 1024px) {
   .container {
       grid-template-columns: repeat(4, 1fr);
-  }
-
-  .textotop {
-      font-family: Inter;
-      font-size: 36px;
-      position: relative;
-      left: 290px;
-      bottom: 2px;
-      letter-spacing: 1px;
   }
 
   .foto-capa {

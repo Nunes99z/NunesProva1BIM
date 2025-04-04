@@ -1,0 +1,57 @@
+.icone img {
+    width: 55px;
+    height: 48px;
+    position: absolute;
+    top: 0px;
+    left: 40px;
+}
+
+.icone1 img {
+    width: 113px;
+    height: 90px;
+    position: absolute;
+    top: 3450px;
+    left: 10px;
+}
+
+.textotop {
+    font-family: Inter;
+    font-size: 36px;
+    position: relative;
+    left: 110px;
+    bottom: 2px;
+    letter-spacing: 1px;
+}
+
+.header {
+    background-color: #FF6200;
+    text-align: center;
+    padding: 10px 0;
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+    width: 100%;
+}
+
+@media (min-width: 1024px) {
+    .textotop {
+        font-family: Inter;
+        font-size: 36px;
+        position: relative;
+        left: 290px;
+        bottom: 2px;
+        letter-spacing: 1px;
+    }
+
+    .icone img {
+        left: 60px;
+    }
+
+    .icone1 img {
+        width: 113px;
+        height: 90px;
+        position: absolute;
+        top: 1160px;
+        left: 40px;
+    }
+}
