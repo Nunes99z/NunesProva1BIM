@@ -10,9 +10,8 @@ function App() {
   return (
     <>
       <div className="body">
-       <Header></Header>
-        <div className="foto-capa"></div>
-
+        <Header></Header>
+        
         <div className="container">
           <div className="item">
             <img src="https://sm.pcmag.com/t/pcmag_uk/review/c/canon-eos-/canon-eos-r5_p5vj.1920.jpg" alt="Câmera Canon EOS R5" />

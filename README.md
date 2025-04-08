@@ -10,3 +10,6 @@ necessárias.
 
 CÓDIGOS:
 1. Peguei o código do trabalho antigo e colei o css e o html no App.jsx e o Css no App.css
+2. Para fazer os elementos externos, eu abri uma pasta dentro do src escrito "components"
+3. criei arquivos escrito cada um dos components requisitados, sendo eles, um .jsx e o outro .css
+4.

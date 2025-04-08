@@ -33,6 +33,16 @@
     width: 100%;
 }
 
+.foto-capa {
+    width: 100%;
+    height: 250px;
+    background-image: url('https://cdn.mos.cms.futurecdn.net/GXHa4PWwDPx7tGQG9MDQvK.jpg');
+    background-position: center;
+    background-size: cover;
+    border-radius: 0 0 15px 15px;
+    margin-bottom: 20px;
+}
+
 @media (min-width: 1024px) {
     .textotop {
         font-family: Inter;
@@ -53,5 +63,9 @@
         position: absolute;
         top: 1160px;
         left: 40px;
+    }
+
+    .foto-capa {
+        background-image: url('https://www.alura.com.br/artigos/assets/diferencas-entre-camera-celular-camera-fotografica/diferencas-entre-camera-celular-camera-fotografica.jpg');
     }
 }
