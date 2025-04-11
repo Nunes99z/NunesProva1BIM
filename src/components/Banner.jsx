@@ -1,7 +1,7 @@
 import React from "react";
 import './Banner.css'
 
-function Header() {
+function Banner() {
     return (
         <>
              <div className="foto-capa"></div>
@@ -9,4 +9,4 @@ function Header() {
     )
 }
 
-export default Header
+export default Banner

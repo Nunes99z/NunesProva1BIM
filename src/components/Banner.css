@@ -7,3 +7,8 @@
     border-radius: 0 0 15px 15px;
     margin-bottom: 20px;
 }
+@media (min-width: 1024px) {
+.foto-capa {
+    background-image: url('https://www.alura.com.br/artigos/assets/diferencas-entre-camera-celular-camera-fotografica/diferencas-entre-camera-celular-camera-fotografica.jpg');
+}
+}
