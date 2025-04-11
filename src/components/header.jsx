@@ -4,7 +4,7 @@ import './header.css'
 function Header() {
     return (
         <>
-            <div className="foto-capa"></div>
+            
             <header className="header">
                 <div className="icone">
                     <img src="https://img.icons8.com/?size=160&id=9YgKo9PXNHu4&format=png" />

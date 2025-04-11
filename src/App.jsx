@@ -2,7 +2,9 @@ import { useState } from 'react'
 import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.css'
-import Header from './components/header'
+import Header from './components/Banner'
+import './Banner.css'
+import Banner from './components/Banner'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -11,6 +13,7 @@ function App() {
     <>
       <div className="body">
         <Header></Header>
+        <Banner></Banner>
         
         <div className="container">
           <div className="item">
