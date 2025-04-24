@@ -1,3 +1,5 @@
+introdução:
+O objetivo deste projeto foi converter um site estático de uma loja de produtos desenvolvidos com HTML e CSS puros para um projeto modularizado utilizando o framework React, com a ajuda do Vite. A principal melhoria ao utilizar React foi a separação em componentes reutilizáveis, o que facilitou a manutenção e a escalabilidade do código. 
 Documentação do trabalho 
 COMANDOS:
 1. Primeiramente, utilizei o comando: npm create vite@latest my-vue-app -- --template vue e apertei o enter,  para criar o vite
@@ -14,12 +16,13 @@ CÓDIGOS:
 3. Para fazer os elementos externos, eu abri uma pasta dentro do src escrito "components"
 4. criei arquivos escrito cada um dos components requisitados, sendo eles, Header, Banner, Cards, Footer, um .jsx e o outro .css
 5. Dentro do Header eu coloquei o cabecalho e o titulo, no Banner, eu coloquei a foto principal e o logo, nos Cards, eu coloquei todos os items/produtos, e no footer, eu coloquei o rodape e a logo de baixo
-6. utilizei os seguintes comandos para importar esses rquivos externos para o principal: import Header from './components/header'
+6. utilizei os seguintes comandos para importar esses rquivos externos para o principal:
+import Header from './components/header'
 import Banner from './components/Banner'
 import Cards from './components/Cards'
 import Footer from './components/footer'
-7. Para salvar no Github, utilizei os seguintes comandos:
-8. git add .
+8. Para salvar no Github, utilizei os seguintes comandos:
+9. git add .
 git commit -m "mensagem do que foi alterado"
 git push
-9. Sendo assim, finalizando o trabalho
+10. Sendo assim, finalizando o trabalho
