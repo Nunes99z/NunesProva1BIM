@@ -10,6 +10,16 @@ necessárias.
 
 CÓDIGOS:
 1. Peguei o código do trabalho antigo e colei o css e o html no App.jsx e o Css no App.css
-2. Para fazer os elementos externos, eu abri uma pasta dentro do src escrito "components"
-3. criei arquivos escrito cada um dos components requisitados, sendo eles, um .jsx e o outro .css
-4.
+2. Primeiramente, alterei todas as class para ClasName e salvei
+3. Para fazer os elementos externos, eu abri uma pasta dentro do src escrito "components"
+4. criei arquivos escrito cada um dos components requisitados, sendo eles, Header, Banner, Cards, Footer, um .jsx e o outro .css
+5. Dentro do Header eu coloquei o cabecalho e o titulo, no Banner, eu coloquei a foto principal e o logo, nos Cards, eu coloquei todos os items/produtos, e no footer, eu coloquei o rodape e a logo de baixo
+6. utilizei os seguintes comandos para importar esses rquivos externos para o principal: import Header from './components/header'
+import Banner from './components/Banner'
+import Cards from './components/Cards'
+import Footer from './components/footer'
+7. Para salvar no Github, utilizei os seguintes comandos:
+8. git add .
+git commit -m "mensagem do que foi alterado"
+git push
+9. Sendo assim, finalizando o trabalho
